@@ -1,0 +1,158 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+}
+header{
+    height: 20vh;
+    width: 100%;
+    font-size: 20px;
+    background-color:aqua;
+}
+header h1{
+    position:absolute;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    height:fit-content;
+    width:fit-content;
+ 
+}
+.container{
+    margin-top: 0.5%;
+    height: 60%;
+    border: 4px dotted black;
+}
+.rectangle{
+    flex-direction: row;
+}
+.rectangle.one{
+    float:left;
+    width: 400px;
+    height: 200px;
+    margin-top: 11rem;
+    background-color: purple;
+    border: 3px solid red;
+}
+.rectangle.two{
+    float:left;
+    margin-top: 11rem;
+    margin-left: 2rem;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: 2px 3px 2px 4px rgb(51, 51, 51);
+}
+.rectangle.three{
+    float: left;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    height: 300px;
+    width: 300px;
+    background-color: indianred;
+}
+.container.two{
+    flex-direction: column;
+    flex-direction: column;
+    align-content: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+.circle.one{
+    margin-left: 3.25%;
+}
+.circle.two{
+    margin-left: 1.5%;
+    width: 150px;
+    height: 150px;
+}
+.buttons{
+    position: relative;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.circle.three{
+    width: 200px;
+    height: 200px;
+}
+.face{
+    margin-top: 30%;
+}
+.eyes{
+    margin-left: 17%;
+    display:inline-flex;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.nose{
+    height: 50px;
+    width: 10px;
+    margin-left: 30%;
+    border-radius: 0% 5% 5% 5%;
+    transform: skew(-15deg, -15deg);
+    background-color: chocolate;
+}
+.chest{
+    margin-top: 20%;
+    margin-left: 40%;
+    height: 40%;
+    justify-items: center;
+    align-content: center;
+}
+.everything{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width:300px;
+    height:300px;
+    border: 2px solid black;
+}
+.box.one{
+    height: 250px;
+    width: 250px;
+    background-color: darkgreen;
+    border-radius: 50%;
+}
+.box.two{
+    position:absolute;
+    margin-left: 2.4rem;
+    margin-top: 2.4rem;
+    height: 175px;
+    width: 175px;
+    background-color: brown;
+}
+.box.three{
+    position:absolute;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+
+}
+.box.four{
+    position:absolute;
+    margin-left: 2.4rem;
+    margin-top: 1rem;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+}

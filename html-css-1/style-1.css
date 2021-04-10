@@ -1,0 +1,65 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+}
+
+.title{
+    float: left;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15vh;
+    margin-left: 0.5%;
+}
+a,
+ul li{
+    margin-top: 8vh;
+    font-size: 22px;
+    margin-left: 5%;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+section{
+    height: 50%;
+    width: 99.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    border: 2px dotted black;
+}
+span{
+    font-size: 24px;  
+    margin: 1%;
+}
+p{
+    font-size: .5rem;
+    margin-top:3%;
+    margin-right:2%;
+    text-align: left;
+    clear: none;
+}
+.HTML5_Logo_512{
+    margin-top: 5%;
+    float: left;
+}
+main{
+    height: 100vh;
+}
+.logo{
+    margin-top: 3%;
+}
+.logo.css{
+    float:right;
+}
+article{
+    width: 95%;
+    margin: auto;
+}
